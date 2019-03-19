@@ -36,7 +36,7 @@ def loop():
         while((response() == '') or (response()==x)):
             time.sleep(1)
             continue
-        y = response()
+        y = response().strip()
         if y == 'light off':
             lightoff()
         elif y == 'light on':

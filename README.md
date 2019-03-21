@@ -11,7 +11,7 @@ pip3 install CoAPthon3
 ```
 
 ## Use Instructions
-**1. Post.py**: can be used to post requests to the local server
+**1. Post.py**: can be used to post requests to the local server  
 `python3 post.py 'hello'`
 
 **2. coap_post.py**: can be used to post requests to any coap server

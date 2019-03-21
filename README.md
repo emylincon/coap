@@ -17,11 +17,11 @@ pip3 install CoAPthon3
 **2. coap_post.py**: can be used to post requests to any coap server  
 `python3 coap_post.py`
 
-**3. coap_server.py**: used to startup the local server listenining to a resource. Default listening resource is 'big'
+**3. coap_server.py**: used to startup the local server listenining to a resource. Default listening resource is 'big'  
 `python3 coap_server.py`
 
-**4. response.py**: this issues a get request to the local server to obtain any post sent to it
+**4. response.py**: this issues a get request to the local server to obtain any post sent to it  
 `python3 response.py`
 
-**5. light_response.py**: this should run on the raspberry pi. it send instructions to turn the led light on or off when a post request is issued.
+**5. light_response.py**: this should run on the raspberry pi. it send instructions to turn the led light on or off when a post request is issued.  
 `python3 light_response.py`

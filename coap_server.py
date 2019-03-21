@@ -1,5 +1,13 @@
 from coapthon.server.coap import CoAP
 from exampleresources import Big
+import os
+
+os.system('clear')
+print('---------------------------------------')
+print('Welcome to Coapthon3 Server Shell')
+print('---------------------------------------')
+print('\n')
+print('Server is listening...')
 
 class CoAPServer(CoAP):
     def __init__(self, host, port):

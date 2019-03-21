@@ -14,7 +14,7 @@ pip3 install CoAPthon3
 **1. Post.py**: can be used to post requests to the local server  
 `python3 post.py 'hello'`
 
-**2. coap_post.py**: can be used to post requests to any coap server
+**2. coap_post.py**: can be used to post requests to any coap server  
 `python3 coap_post.py`
 
 **3. coap_server.py**: used to startup the local server listenining to a resource. Default listening resource is 'big'
